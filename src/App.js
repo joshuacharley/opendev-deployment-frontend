@@ -7,7 +7,7 @@ import './table.css';
 function App() {
     const [data, getData] = useState([])
     // const URL = 'http://159.223.203.216/opendev-deployment-backend';
-    const URL = 'http://localhost:8800/mark';
+    const URL = 'http://159.223.203.216:8800/mark';
 
  
     useEffect(() => {
